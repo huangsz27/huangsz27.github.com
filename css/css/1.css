@@ -1,0 +1,44 @@
+body {
+    height: 2000px;
+    font-family: 楷体;
+}
+h1 {
+    color: red;
+    background: #369;
+}
+pre{
+   font-size: 30px;
+}
+p {
+    text-indent: 4em;
+}
+/*class选择器*/
+.indent-text {
+    text-indent: 2em;
+}
+.big {
+    font-size: 30px;
+}
+/*id选择器*/
+#small {
+    font-size: 10px;
+}
+h1,
+p,
+.big,
+#small {
+    font-family: inherit;
+}
+/*伪类*/
+a:link {
+    color: #369;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: yellow;
+}
+a:active{
+    color: red;
+}

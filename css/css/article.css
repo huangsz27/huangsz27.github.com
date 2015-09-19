@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    margin-right: 10px;
+    float: left;
+}
+img {
+    height: 50px;
+}

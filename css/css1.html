@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css 1</title>
+    <!--<link rel="stylesheet" href="css/1.css"/>-->
+    <style>
+        @import url("css/1.css");
+    </style>
+</head>
+<body>
+<pre>
+    CSS样式：
+    行内样式
+    页面级样式
+    网站级样式
+
+    selector
+        选择器：
+                1、基本选择器
+                            元素/标签/标记选择器
+                            class选择器
+                            id选择器
+                            id vs class:
+                                        1、id的值是唯一的，class的值是可以通用的；
+                                        2、id值的数量只能是1个，class可以是多个；
+                                        3、id的优先级高于class，即：越特殊的优先级越高；
+                            合适用id，合适用class？答案：布局时用id，样式设计用class。
+                2、复合选择器（由基本选择器组成）
+                            交集选择器
+                                    标记选择器+class选择器
+                                    标记选择器+id选择器
+                            并集选择器
+                            派生选择器
+
+                优先级：
+                        id选择器>class选择器>标记选择器
+    declaration
+    property
+    value
+</pre>
+<h1>Hello,CSS!</h1>
+<h1>h1...</h1>
+<p id="small" class="big">该样式由id决定</p>
+<p id="" class="indent-text big">该样式由class决定</p>
+<a href="http://google.com">google...</a>
+<a href="http://baidu.com">baidu...</a>
+<p>test paragragh <b><span>span...</span></b></p>
+<span>span2...</span>
+</body>
+</html>
