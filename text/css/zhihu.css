@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F1F5F8;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#top {
+    height: 365px;
+    background: #0078D8;
+}
+
+#top_inner {
+    width: 740px;
+    height: 100%;
+    margin: auto;
+
+}
+
+.inner_left {
+    width: 340px;
+    height: 100%;
+    position: relative;
+}
+
+.inner_right {
+    height: 100%;
+    width: 340px;
+}
+
+.inner_left {
+    float: left;
+}
+
+.inner_right {
+    float: right;
+}
+
+.logo {
+    background-image: url("../imgs/logo.png");
+    height: 124px;
+    margin-top: -62px;
+    position: absolute;
+    top: 50%;
+    width: 345px;
+}
+
+.from_left {
+    float: left;
+}
+
+.form_right {
+    float: right;
+    width: 202px;
+    height: 289px;
+    margin: 38px 0;
+}
+
+.form_title {
+    width: 202px;
+    height: 26px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.title_right {
+    float: right;
+    margin-top: -24px;
+}
+
+.title_left a {
+    text-decoration: none;
+    color: white;
+    margin-top: 18px;
+}
+
+.title_right a {
+    color: white;
+    font-family: ËÎÌו;
+    text-decoration: none;
+}
+
+.img_arrow {
+    height: 20px;
+    width: 20px;
+}
+
+.input_name {
+    background: none repeat scroll 0 0 #E7F1F8;
+    border: 1px solid #1672B9;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 2px rgba(15, 82, 135, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 0.15);
+    color: #555555;
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0;
+    padding: 8px 10px;
+    width: 180px;
+
+}
+
+.form_name {
+    width: 202px;
+    height: 37px;
+    background: skyblue;
+    margin-top: 18px;
+}
+
+.form_email {
+    width: 202px;
+    height: 37px;
+    background: bisque;
+    margin-top: 18px;
+}
+
+.form_password {
+    width: 202px;
+    height: 37px;
+    background: cornflowerblue;
+    margin-top: 18px;
+}
+
+.from_command {
+    width: 202px;
+    height: 37px;
+    background: lightcoral;
+    margin-top: 18px;
+}
+
+.from_socially {
+    width: 202px;
+    height: 26px;
+    background: bisque;
+    margin-top: 18px;
+}
+
+#container {
+    height: 360px;
+    margin: 50px 0;
+    background: #bebebe;
+}
+
+#footer {
+    height: 41px;
+    padding-bottom: 60px;
+}
